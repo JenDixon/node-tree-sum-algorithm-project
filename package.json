@@ -1,0 +1,24 @@
+{
+  "name": "FindLargestSum",
+  "version": "0.0.1",
+  "description": "Find Largest Sum of Tree",
+  "main": "src/app.js",
+  "dependencies": {
+    "lodash": "^3.5.0",
+    "minimist": "^1.1.1",
+    "moment": "^2.10.2",
+    "ramda": "^0.13.0",
+    "request": "^2.53.0",
+    "rootpath": "^0.1.2",
+  },
+  "devDependencies": {
+    "gulp": "^3.8.8",
+    "gulp-jasmine": "^1.0.1",
+    "gulp-shell": "^0.4.2",
+    "jasmine-reporters": "^2.0.5",
+  },
+  "scripts": {
+    "start": "node app.js",
+    "test": "gulp test"
+  }
+}
